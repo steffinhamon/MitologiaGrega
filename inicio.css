@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+@media (max-width: 1000px)
+{
+ .containerFora{
+    flex-direction: column;
+   
+ }
+ .fotinhas{
+    flex-direction: column;
+ }
+
+
+}
+
+body{
+    font-family: initial;
+    background-color:  rgb(11, 15, 26) ;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+.containerFora{
+    display: flex;
+    max-width: 1400px;
+    justify-content: center;  
+    align-items: center;      
+  
+    justify-content: center;
+    align-items: center;  
+    min-height: 100vh;
+}
+
+
+.container2{
+    margin-left: 10%;
+    width: 90%;
+
+  
+ 
+}
+
+
+
+
+.titllepi{
+    color: rgb(205, 206, 208);
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.tittle{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.tittlep{
+    color:  rgb(255, 255, 255);
+    font-size: 40px;
+    padding-bottom: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+   
+   
+}
+
+.tittlep:hover {
+    transform: translateX(50px);
+}
+
+
+
+
+   
+.content{
+    
+     border-radius: 20px;
+     width: 80%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+.first-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+   
+}
+
+
+.first-colum{
+       text-align: center;
+       flex: 1;
+       align-items: center;
+       z-index: 10;
+       height: auto;
+      
+   
+}
+
+.second-colum{
+  
+   text-align: center;
+   display: none;
+}
+
+.second-content{
+   flex: 2 0 auto;
+   width: 90%;
+   margin-left: 9%;
+}
+
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+}
+
+
+.content::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(196, 178, 155);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+
+
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+a{
+    color:rgba(234, 230, 220, 0.805) ;
+    text-decoration: none;
+ }
+ a:visited{
+    color:rgb(166, 145, 80) ;
+ }
+ 
+ a:hover{
+    color: rgb(166, 145, 80);
+ }
+
+ a:active{
+    color: rgba(219, 110, 0, 0.789);
+ }
+
+.second-colum{
+    position: absolute;
+   
+} 
+
+.backg{
+    position: absolute;
+    z-index: 0;
+    opacity: 0.3;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 20px;
+}
+
+
+.fab fa-instagram{
+    font-size: 100px;
+    position: absolute;
+    color: aliceblue;
+} 
+
+a{
+    text-decoration: none;
+
+}
+
+
+.description{
+    font-size: 20px;
+}
+
+.description-primery{
+    color: black;
+    padding-top: 10%;
+}
+
+.description-second{
+    color: white;
+}
+
+
+.opções{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(135, 140, 149);
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+
+
+.item-social-media{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.item-social-media a{
+    color: black;
+}
+
+.facebook{
+  display: flex;
+ 
+}
+
+.frase{
+    color: white;
+}
+
+.description-second{
+    font-size: 15px;
+}
+
+
+.image-hover{
+  width: 30%;
+  height: 45%;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  border-radius: 20px;
+  opacity: 0.5;
+  margin-top: 30px;
+  margin: 5px;
+
+
+}
+
+.image-hover:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    box-shadow: 0px 4px 15px black;
+  
+}
+
+.image-hover3{
+    width: 30%;
+    height: 190px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 20px;
+    opacity: 0.5;
+    margin-top: 30px;
+    margin: 5px;
+  
+  
+}
+
+.image-hover3:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    box-shadow: 0px 4px 15px black;
+  
+}
+
+hr{
+    margin-top: 20px;
+    border: 1px solid white;
+    box-shadow: 10px 10px 20px rgb(197, 137, 7);
+    width: 98%;
+ 
+}
